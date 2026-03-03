@@ -1,3 +1,4 @@
+//langkah 1
 void main() {
   String test = "test2";
   if (test == "test1") {
