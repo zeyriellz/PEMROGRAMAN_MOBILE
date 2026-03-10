@@ -1,6 +1,5 @@
 void main () {
   var gifts = {
-  // Key:    Value
   'first': 'partridge',
   'second': 'turtledoves',
   'fifth': 1
@@ -12,6 +11,20 @@ void main () {
   18: 2,
   };
 
-  print(gifts);
-  print(nobleGases);
+  print('Sebelum diubah: $gifts');
+  print('Sebelum diubah: $nobleGases');
+  print('');
+
+  var mhs1 = Map<String, String>();
+  gifts['first'] = 'partridge';
+  gifts['second'] = 'turtledoves';
+  gifts['fifth'] = 'golden rings';
+
+  var mhs2 = Map<int, String>();
+  nobleGases[2] = 'helium';
+  nobleGases[10] = 'neon';
+  nobleGases[18] = 'argon';
+
+  print('Setelah diubah: $gifts');
+  print('Setelah diubah: $nobleGases');
 }
