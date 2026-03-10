@@ -8,4 +8,10 @@ void main () {
   list[1] = 1;
   assert(list[1] == 1);
   print(list[1]);
+
+  final list2 = List<String?>.filled(5, null);
+  list2[1] = "NETY";
+  list2[2] = "244107060042";
+  print(list2);
 }
+
